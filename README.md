@@ -46,6 +46,12 @@ Project-MethodBox 1024 Shit Mountain Festival
 ### Loader
 这是分片文件编译后的dll的反射加载器，用于根据用户输入的数字反射调用对应的dll中的Lookup(long)静态方法获取结果
 
+核心原理：取用户输入并通过反射调用dll内的方法取结果
+
+编译条件：net8.0-Release-AnyCPU
+
+代码说明：如果任意代码分片dll损坏都有可能导致结果异常或报错
+
 ### build.bat
 单线程编译分块文件，通常不采用此方法，编译较慢
 
