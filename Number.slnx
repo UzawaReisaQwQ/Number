@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Loader/Loader.csproj" Id="0d25ee3c-2588-480c-b127-3da0c29c16c4" />
+  <Project Path="Number/Number.csproj" />
+  <Project Path="SplitToChunks/SplitToChunks.csproj" Id="8f9e6573-5ad5-4c25-8c8a-eeaa116078b2" />
+</Solution>
